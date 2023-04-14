@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+
+    <style>
+        .container{
+            display: block;
+            justify-content: center;
+            margin: 4rem 4rem;
+        }
+
+        table{
+            width: 44%;
+        }
+        
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 10px;
+        }
+
+        .td-sm{
+            height: 20px;
+        }
+
+        .tr-two{
+            height: 4rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+         
+        <h1>Atividade de tabela</h1>
+        
+        <table>
+            <tr>
+                <td rowspan="3">Classe 1 </td>
+                <td class="td-sm">Coluna c1</td>
+                <td>Coluna c1</td>
+                <td>Coluna c1</td>
+                 
+            </tr>
+            <tr class="tr-two">
+                <td>Coluna c2</td>
+                <td>Coluna c2</td>
+                <td>Coluna c2</td>
+            </tr>
+            <tr>
+                <td>Coluna c3</td>
+                <td>Coluna c3</td>
+                <td>Coluna c3</td>
+            </tr>
+            <!--parte 2 table-->
+            <tr>
+                <td rowspan="3">Classe 2 </td>
+                <td class="td-sm">Coluna c1</td>
+                <td>Coluna c1</td>
+                <td>Coluna c1</td>
+                 
+            </tr>
+            <tr class="tr-two">
+                <td>Coluna c2</td>
+                <td>Coluna c2</td>
+                <td>Coluna c2</td>
+            </tr>
+            <tr>
+                <td>Coluna c3</td>
+                <td>Coluna c3</td>
+                <td>Coluna c3</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
