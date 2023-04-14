@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margens</title>
+    <style>
+        body {
+            background-color: rgb(17, 27, 31);
+            color: aquamarine;
+            text-align: center;
+        }
+        .conteudo{
+            display: inline-block;
+        }
+        .header {
+            background-color: rgb(45, 188, 188); 
+            width:1250px; 
+            height:100px;
+            margin-bottom: 20px;
+        }
+        .header h3 {
+            color: rgb(229, 229, 234);
+            text-align: center;
+            position: relative;
+            top: 30px;
+        }
+        .menu {
+            background-color: rgb(32, 67, 67);
+            width:150px; 
+            height:600px;
+            position: absolute;
+        }
+
+        .menu h3 {
+            color: azure;
+            text-align: center;
+            position: relative;
+            top: 30px;
+        }
+
+        .xmenu {
+            margin-left: 14%;
+        }
+
+        .post {
+            background-color: rgb(6, 96, 96); 
+            width:1073px; 
+            height:291px;
+        }
+
+        .post h3 {
+            color: azure;
+            text-align: center;
+            position: relative;
+            top: 30px;
+        }
+        .footer {
+            background-color: rgb(49, 190, 197); 
+            width:1246px; 
+            height:170px;
+            margin-left: -16.1%; 
+        }
+        .footer h3 {
+            color: azure;
+            text-align: center;
+            position: relative;
+            top: 30px;  
+        }
+
+    </style>
+</head>
+<body>
+    <div class="conteudo">
+        <h1>Usando Divs</h1>
+        <div class="header">
+            <h3>Menu Principal</h3>
+        </div>
+        <div class="menu">
+            <h3>Menu Lateral</h3>
+        </div>
+        <div class="xmenu">
+            <div class="post">
+                <h3>Post 1</h3>
+            </div>
+            <div class="post">
+                <h3>Post 2</h3>
+            </div>
+            <div class="footer">
+                <h3>Footer</h3>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
